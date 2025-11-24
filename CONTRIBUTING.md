@@ -97,7 +97,7 @@ mvn validate
 mvn clean package
 
 # Run the application
-java -jar target/ogv-3.2.0-runnable.jar
+java -jar target/ogv-*-runnable.jar
 ```
 
 ### Project Structure
