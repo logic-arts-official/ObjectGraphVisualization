@@ -73,7 +73,7 @@ cd ObjectGraphVisualization
 mvn clean package
 
 # 3. Run the application
-java -jar target/ogv-3.2.0-runnable.jar
+java -jar target/ogv-*-runnable.jar
 ```
 
 For detailed developer documentation, see [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md).
@@ -96,7 +96,7 @@ See [Building from Source](#building-from-source) section below.
 
 #### From Pre-built JAR:
 ```bash
-java -jar ogv-3.2.0-runnable.jar
+java -jar ogv-*-runnable.jar
 ```
 
 #### From IDE:
@@ -160,7 +160,7 @@ mvn test
 mvn package
 
 # The runnable JAR will be at:
-# target/ogv-3.2.0-runnable.jar
+# target/ogv-*-runnable.jar
 ```
 
 ### Running Tests

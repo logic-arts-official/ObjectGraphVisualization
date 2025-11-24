@@ -23,8 +23,8 @@
         <version.log4j>2.24.3</version.log4j>
         <version.activation>1.2.0</version.activation>
         <version.jaxb-api>2.3.1</version.jaxb-api>
-        <version.jaxb-core>4.0.5</version.jaxb-core>
-        <version.jaxb-runtime>4.0.5</version.jaxb-runtime>
+        <version.jaxb-core>2.3.0.1</version.jaxb-core>
+        <version.jaxb-runtime>2.3.9</version.jaxb-runtime>
         <version.openjfx>21.0.5</version.openjfx>
         <version.fxyzlib>0.3.0-patched</version.fxyzlib>
         <version.objimporterjfx>0.8</version.objimporterjfx>

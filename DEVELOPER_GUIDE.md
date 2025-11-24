@@ -43,7 +43,7 @@ cd ObjectGraphVisualization
 mvn validate
 
 # 3. Build and run
-mvn clean package && java -jar target/ogv-3.2.0-runnable.jar
+mvn clean package && java -jar target/ogv-*-runnable.jar
 ```
 
 **That's it!** You should see the OGV application window open.
@@ -215,13 +215,13 @@ Currently, OGV uses a single build configuration. The pom.xml includes dependenc
 mvn compile exec:java
 
 # Run packaged JAR
-java -jar target/ogv-3.2.0-runnable.jar
+java -jar target/ogv-*-runnable.jar
 
 # Run with more memory (for large diagrams)
-java -Xmx2048m -jar target/ogv-3.2.0-runnable.jar
+java -Xmx2048m -jar target/ogv-*-runnable.jar
 
 # Run with JavaFX verbose logging
-java -Djavafx.verbose=true -jar target/ogv-3.2.0-runnable.jar
+java -Djavafx.verbose=true -jar target/ogv-*-runnable.jar
 ```
 
 ## Development Workflow
@@ -331,14 +331,14 @@ Platform.runLater(() -> {
 
 Enable JavaFX verbose output:
 ```bash
-java -Dprism.verbose=true -jar target/ogv-3.2.0-runnable.jar
+java -Dprism.verbose=true -jar target/ogv-*-runnable.jar
 ```
 
 #### Memory Issues
 
 Monitor with:
 ```bash
-java -XX:+PrintGCDetails -Xmx1024m -jar target/ogv-3.2.0-runnable.jar
+java -XX:+PrintGCDetails -Xmx1024m -jar target/ogv-*-runnable.jar
 ```
 
 ### IDE Debugging
@@ -413,7 +413,7 @@ java --list-modules | grep javafx
 **Problem**: OutOfMemoryError
 ```bash
 # Increase heap size
-java -Xmx2048m -jar target/ogv-3.2.0-runnable.jar
+java -Xmx2048m -jar target/ogv-*-runnable.jar
 ```
 
 ### IDE Issues
