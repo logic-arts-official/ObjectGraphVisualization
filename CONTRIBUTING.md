@@ -183,7 +183,7 @@ ObjectGraphVisualization/
   - Packages: `lowercase`
 
 - **Organize imports**: Remove unused imports
-- **Format code**: Use consistent indentation (4 spaces or tab as in project)
+- **Format code**: Use consistent indentation (4 spaces)
 - **Add JavaDoc** for public APIs:
   ```java
   /**

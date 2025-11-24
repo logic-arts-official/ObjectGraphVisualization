@@ -21,7 +21,7 @@ This guide helps developers get up and running with OGV development quickly.
 ### Prerequisites Check
 
 ```bash
-# Check Java version (need 17+)
+# Check Java version (need Java 17+; this is the minimum required for this project)
 java -version
 
 # Check Maven version (need 3.6+)
